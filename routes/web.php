@@ -20,3 +20,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::middleware('guest')->group(function () {
+    Route::get('/kontak', function () {
+        return view('contact');
+    })->name('contact');
+});

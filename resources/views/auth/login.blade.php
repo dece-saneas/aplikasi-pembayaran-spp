@@ -2,7 +2,9 @@
 
     <x-slot name="title">Login</x-slot>
 
-    <x-slot name="style"></x-slot>
+    <x-slot name="style">
+        <link rel="stylesheet" href="{{ asset('css/pages/login.css') }}" />
+    </x-slot>
 
     <x-slot name="illustration">
         <img src="{{ asset('images/pages/login-ilustrasi.svg') }}">

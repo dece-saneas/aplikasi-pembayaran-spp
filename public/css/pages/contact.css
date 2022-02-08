@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'graphik';
+    src:  
+        url('../../fonts/GraphikRegular.otf') format('otf'),
+        url('../../fonts/GraphikRegular.eot?') format('embedded-opentype'),
+        url('../../fonts/GraphikRegular.woff') format('woff'),
+        url('../../fonts/GraphikRegular.woff2') format('woff2'),
+        url('../../fonts/GraphikRegular.ttf') format('truetype');
+}
+
+* {
+    font-family: graphik !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #525E6E !important;
+    font-size: 16px;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("../../images/pages/contact-bg-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.masthead .container {
+    margin: auto;
+    padding: 10px 0 0 0;
+    max-width: 1180px;
+}
+
+.navbar-brand img {
+    width: 228px !important;
+}
+
+.row {
+    width: 100% !important;
+    margin: 32px 0 0 0 !important;
+}
+
+.col-kiri {
+    max-width: 452px !important;
+    margin: 0 284px 0 0 !important;
+    padding: 0 !important;
+}
+
+.col-kanan {
+    max-width: 444px !important;
+    padding: 0 !important;
+    margin: 20px 0 0 0 !important;
+}
+
+form {
+    color: #525E6E !important;;
+}
+
+label, button{
+    font-size: 16px !important;
+}
+
+h1 {
+    color: #525E6E !important;
+    font-weight: 600 !important;
+    margin: 0 0 16px 0 !important;
+}
+
+p {
+    color: #525E6E !important;
+    font-size: 16px !important;
+    line-height: 28px !important;
+}
+
+.btn-login {
+    width: 100% !important;
+    background-color: #64DBB2 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    margin: 160px 0 0 0 !important;
+    transition: 0.3s !important;
+}
+
+.btn-login:hover {
+    opacity: 0.7 !important;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .masthead .container {
+        margin: auto;
+        padding: 10px 0 0 0;
+        max-width: 944px;
+    }
+
+    .col-kiri {
+        max-width: 352px !important;
+        margin: 0 184px 0 0 !important;
+        padding: 0 !important;
+    }
+
+    .col-kiri img{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .masthead {
+        background-image: url("../../images/pages/contact-bg-tablet.svg");
+    }
+
+    .masthead .container {
+        margin: auto;
+        padding: 10px 0 0 0;
+        max-width: 688px;
+    }
+
+    .row {
+        flex-flow:  column;
+    }
+
+    .col-kiri {
+        max-width: 352px !important;
+        margin: 0 0 20px 0 !important;
+        padding: 0 !important;
+    }
+
+    .col-kiri img{
+        width: 100% !important;
+    }
+
+    .btn-login {
+        margin: 100px 0 0 0 !important;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .masthead {
+        background-image: url("image/bg-tablet.svg");
+    }
+
+    .masthead .container {
+        margin: auto;
+        padding: 0 5px !important;
+        max-width: 100% !important;
+    }
+
+    .row {
+        flex-flow:  column;
+        margin: 50px 0 0 0 !important;
+    }
+
+    .col-kiri {
+        max-width: 70% !important;
+        margin: 0 0 10px 0 !important;
+        padding: 0 !important;
+    }
+
+    .col-kiri img{
+        width: 100% !important;
+    }
+
+    .col-kanan {
+        max-width: 100% !important;
+        padding: 0 20px !important;
+    }
+
+    .btn-login {
+        margin: 30px 0 0 0 !important;
+    }
+}
