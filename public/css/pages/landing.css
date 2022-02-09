@@ -187,7 +187,7 @@ a {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
     .masthead {
-        background-image: url("image/bg-tablet.svg");
+        background-image: url("../../images/pages/landing-bg-tablet.svg");
     }
 
     .masthead .container {

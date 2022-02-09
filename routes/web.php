@@ -13,9 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Auth::routes();
 
@@ -25,4 +22,8 @@ Route::middleware('guest')->group(function () {
     Route::get('/kontak', function () {
         return view('contact');
     })->name('contact');
+
+    Route::get('/', function () {
+        return view('landing');
+    })->name('landing');
 });
