@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'graphik';
+    src:  
+        url('../../fonts/GraphikRegular.otf') format('otf'),
+        url('../../fonts/GraphikRegular.eot?') format('embedded-opentype'),
+        url('../../fonts/GraphikRegular.woff') format('woff'),
+        url('../../fonts/GraphikRegular.woff2') format('woff2'),
+        url('../../fonts/GraphikRegular.ttf') format('truetype');
+}
+
+* {
+    font-family: graphik !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: #525E6E !important;
+    font-size: 16px;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("../../images/pages/landing-bg-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.masthead .container {
+    margin: auto;
+    padding: 10px 0 0 0;
+    max-width: 1180px;
+}
+
+.navbar-brand img {
+    width: 228px !important;
+}
+
+.nav-kontak {
+    padding-right: 50px;
+    transition: 0.3s;
+}
+
+.nav-kontak:hover {
+    text-decoration: underline !important;
+}
+
+.nav-login {
+    border: 1px solid #525E6E;
+    border-radius: 69px;
+    padding: 6px 18px;
+    transition: 0.3s;
+}
+
+.nav-login:hover {
+    border: 1px solid white;
+    background-color: white;
+}
+
+/* Content */
+.container-content {
+    color: #525E6E !important;
+}
+
+.row {
+    width: 100% !important;
+    margin: 32px 0 0 0 !important;
+}
+
+.col-kiri {
+    text-align: left;
+    padding: 0 202px 0 0 !important;
+}
+
+.col-kiri h1 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 72px;
+    margin: 0 0 46px 0 !important;
+}
+
+.col-kiri img {
+    margin: 0 0 38px 0;
+}
+
+.button-cek-tagihan {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 !important;
+    border: 1px solid #64DBB2;
+    border-radius: 69px;
+    background-color: #64DBB2;
+    padding: 13px 32px !important;
+    margin: 0 !important;
+    width: 232px !important;
+    transition: 0.3s;
+}
+
+.button-cek-tagihan:hover {
+    color: white !important;
+}
+
+.mobile-nav {
+    display: none !important;
+}
+
+.mobile-kontak {
+    margin: 0 20px 0 0 !important;
+}
+
+.mobile-login {
+    margin: 0 0 0 20px !important;
+}
+
+.mobile-kontak, .mobile-login {
+    text-decoration: underline !important;
+    padding: 50px 0 0 0 !important;
+}
+
+.col-kanan {
+    padding: 0 !important;
+    max-width: 450px !important;
+}
+
+.col-kanan img {
+    width: 100% !important;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .masthead .container {
+        max-width: 944px;
+    }
+
+    .col-kiri {
+        padding: 0 144px 0 0 !important;
+    }
+    
+    .col-kiri h1 {
+        font-size: 44px;
+        line-height: 62px;
+    }
+
+    .col-kanan {
+        padding: 0 !important;
+        max-width: 351px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .masthead {
+        background-image: url("../../images/pages/landing-bg-tablet.svg");
+    }
+
+    .masthead .container {
+        max-width: 689px;
+    }
+
+    .row {
+        flex-flow: column-reverse;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .col-kiri {
+        padding: 0 !important;
+        max-width: 447px !important;
+        text-align: center !important;
+    }
+    
+    .col-kiri h1 {
+        font-size: 44px;
+        line-height: 62px;
+    }
+
+    .col-kanan {
+        align-self: center !important;
+        margin: 0 0 43px 0;
+        max-width: 351px !important;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .masthead {
+        background-image: url("image/bg-tablet.svg");
+    }
+
+    .masthead .container {
+        max-width: 100% !important;
+        padding: 0 5px !important;
+    }
+
+    .nav-kontak, .nav-login {
+        display: none !important;
+    }
+
+    .container-content {
+        margin: 70px 0 0 0 !important;
+    }
+
+    .row {
+        flex-flow: column-reverse;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .col-kiri {
+        padding: 0 20px !important;
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+    
+    .col-kiri h1 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .col-kiri img {
+        width: 174px !important;
+    }
+
+    .button-cek-tagihan {
+        font-size: 18px;
+        padding: 13px 32px !important;
+        width: 232px !important;
+    }
+
+    .mobile-nav {
+        display: block !important;
+    }
+
+    .col-kanan {
+        align-self: center !important;
+        margin: 0 0 43px 0;
+        max-width: 70% !important;
+    }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_661" data-name="Rectangle 661" width="1280" height="720" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="_1920-bg-size" data-name="1920-bg-size" width="2560" height="1313" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="bg-desktop" clip-path="url(#clip-path)">
+    <g id="_1920-bg" data-name="1920-bg" transform="translate(79 -2)">
+      <rect id="_1920-bg-white" data-name="1920-bg-white" width="2560" height="1158" transform="translate(-719 2)" fill="#fff"/>
+      <g id="_1920-bg-blue" data-name="1920-bg-blue" transform="translate(-719 2)" clip-path="url(#clip-path-2)">
+        <path id="_1920-bg-color" data-name="1920-bg-color" d="M1562.818,392.018S1439.633,403.75,1427.8,452.65c-8.271,34.167-35.46,36.016-42.154,94.031-4.4,38.12,39.483,85.474,48.165,145.422,6.931,47.864-21.383,73.254-55.716,96.087-71.23,47.368-38.987,238.828-8.586,332.275s-127.891,123.845-92.323,206.681S-59.517,1903.462,2.009,2048.409c10.089,23.771,154.6,565.1,226.851,534.425L3077.293,1373.746,2494.173,0Z" transform="matrix(0.921, 0.391, -0.391, 0.921, 485.273, -1029.137)" fill="#adeaff"/>
+      </g>
+    </g>
+  </g>
+</svg>

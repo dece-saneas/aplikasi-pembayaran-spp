@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="{{ asset('css/pages/contact.css') }}" />
     </x-slot>
 
+    <x-slot name="navbar"></x-slot>
+
     <x-slot name="illustration">
         <img src="{{ asset('images/pages/contact-ilustrasi.svg') }}">
     </x-slot>

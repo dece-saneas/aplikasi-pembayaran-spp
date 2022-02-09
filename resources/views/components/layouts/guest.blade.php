@@ -21,7 +21,10 @@
             <!-- Navbar -->
             <nav class="navbar container-navbar navbar-light navbar-expand-md bg-faded mx-auto">
                 <div class="container">
-                    <a href="{{ route('home') }}" class="navbar-brand d-flex w-50 me-auto"><img src="{{ asset('images/logo.svg') }}" /></a>
+                    <a href="{{ route('home') }}" class="navbar-brand d-flex w-50 me-auto">
+                        <img src="{{ asset('images/logo.svg') }}" />
+                    </a>
+                    {{ $navbar }}
                 </div>
             </nav>
             <!-- Content -->
